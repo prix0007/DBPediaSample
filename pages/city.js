@@ -95,7 +95,7 @@ const city = () => {
     setLoading(true);
 
     try {
-      const res = await axios.get(`http://dbpedia.org/resource/${citySlug}`, {
+      const res = await axios.get(`https://dbpedia.org/resource/${citySlug}`, {
         headers: { Accept: "application/json" },
       });
     //   console.log(res.data);
